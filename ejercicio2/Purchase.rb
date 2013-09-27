@@ -19,6 +19,8 @@ class Purchase
 	end
 
 	def total
-		
+		total = 0 
+		@productos.each do |x|
+			total += x.precio
 	end
 end
